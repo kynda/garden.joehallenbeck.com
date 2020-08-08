@@ -1,0 +1,112 @@
+body {
+  margin: 40px 0;
+  max-width: 650px;
+  font-size: 18px;
+  color: #444;
+  padding: 0 1em
+}
+
+a:link,
+a:visited{
+  color: #665062;
+}
+
+a:hover {
+  color: black;
+}
+
+header {
+  font-size: 36px;
+  text-align: right;
+  font-weight: bold;
+  line-height:.7em
+}
+
+header a:link {
+  text-decoration: none;
+}
+
+article {
+  margin-bottom: 2em;
+  line-height: 1.6;
+}
+
+article a:link,
+article a:visited{
+  text-decoration: underline;
+}
+
+article h1 {
+  font-size: 32px;
+}
+
+article h1,
+aritcle h2,
+article h3 {
+  line-height: 1.2em
+}
+
+article p,
+article > ul,
+article > ol {
+    margin-bottom: 1.4em;
+}
+
+article pre {
+  border-left: solid #dee2e6;
+  margin-left: 0;
+  padding-left: 2em;
+  line-height: .9em;
+}
+
+article code {
+  font-size: 14px;
+}
+
+article dt {
+    font-weight: 500;
+}
+
+article dd {
+    margin-bottom: 1.2em;
+}
+
+article img {
+    max-width: 100%;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+}
+
+article table {
+  width: 100%;
+  margin-bottom: 1em;
+  border-collapse: collapse;
+}
+
+article thead th {
+  border-bottom: 2px solid #dee2e6;
+}
+
+article tbody tr:nth-of-type(2n+1) {
+  background-color: rgba(0,0,0,.05);
+}
+
+article table td, article table th {
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  padding: .75em;
+}
+
+article blockquote {
+  border-left: solid #dee2e6;
+  margin-left: 0;
+  padding-left: 2em;
+}
+
+footer {
+  text-align: center;
+}
