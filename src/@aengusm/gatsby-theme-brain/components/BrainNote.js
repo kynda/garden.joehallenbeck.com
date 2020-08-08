@@ -50,7 +50,7 @@ const BrainNote = ({ note }) => {
 
   return (
       <Layout>
-        <SEO post={{ title: `${note.title}` }} />
+        <SEO title={note.title} />
         <div>
           <h1>{note.title}</h1>
           <MDXRenderer>{note.childMdx.body}</MDXRenderer>
