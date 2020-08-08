@@ -10,9 +10,10 @@ Installation
 -------------------------------------------------------------------------------
 
 1. Git clone this repository
-2. Create a `container` directory (`mkdir container`)
-3. Begin filling that container with wonderful notes
-4. Run `gatsby develop` to see those notes in your browser
+2. Run `npm install`
+3. Create a `container` directory (`mkdir container`)
+4. Begin filling that container with wonderful notes
+5. Run `gatsby develop` to see those notes in your browser
 
 You can change the stylesheet for your notes by modifying
 `src/components/stylesheet.css`.
