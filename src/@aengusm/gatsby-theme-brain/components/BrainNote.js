@@ -11,7 +11,7 @@ const BrainNote = ({ note }) => {
   if (note.inboundReferencePreviews != null) {
     references = note.inboundReferencePreviews.map((ref) => (
       <li>
-        <a href={ref.source}>{ref.source}</a>
+        <a href={"/container/"+ref.source}>{ref.source}</a>
         <br />
         <div dangerouslySetInnerHTML={{ __html: ref.previewHtml }} />
       </li>
