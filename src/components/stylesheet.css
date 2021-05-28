@@ -63,6 +63,7 @@ article pre {
   margin-left: 0;
   padding: 1em 0 1em 2em;
   line-height: .9em;
+  width: 80ch;
 }
 
 article code {
