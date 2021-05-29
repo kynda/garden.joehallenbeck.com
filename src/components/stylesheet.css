@@ -68,6 +68,12 @@ article pre {
 
 article code {
   font-size: 14px;
+  background: #fbf1c7;
+  padding: 0.25em;
+}
+
+article pre > code {
+  padding: 0em;
 }
 
 article dt {
