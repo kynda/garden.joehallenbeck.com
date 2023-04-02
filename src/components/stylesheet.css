@@ -85,7 +85,7 @@ article dd {
 }
 
 article img {
-    max-width: 100%;
+    width: 80ch;
     padding: 4px;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -95,7 +95,7 @@ article img {
 }
 
 article table {
-  width: 100%;
+  width: 80ch;
   margin-bottom: 1em;
   border-collapse: collapse;
 }
