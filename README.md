@@ -23,6 +23,9 @@ notes will appear inside the &lt;article&gt; tag.
 
 The landing page for the site is found under `src/pages/index.js`.
 
+If your notes are going to include photos or other assets, you can create an
+`assets` directory under `public` and then link to them in that directory, e.g.
+`/assets/yolo.jpg`
 
 [Joe's Digital Garden]: https://garden.joehallenbeck.com
 [Gatsby Theme Brain]: https://github.com/aengusmcmillin/gatsby-theme-brain
