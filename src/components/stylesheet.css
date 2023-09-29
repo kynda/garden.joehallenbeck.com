@@ -2,7 +2,7 @@ body {
   margin: 40px 0;
   max-width: 60ch;
   font-size: 18px;
-  color: #282828;
+  color: #333333;
   padding: 0 1em
 }
 
@@ -49,6 +49,11 @@ article h1,
 article h2,
 article h3 {
   line-height: 1.2em
+}
+
+article h3 {
+  font-style: italic;
+  color: #555;
 }
 
 article p,
