@@ -1,0 +1,42 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-body: #282828;
+    --background: #3c3836;
+    --code: #FABD2F;
+    --focus: #83A598;
+    --links: #83A598;
+    --selection: #458588;
+    --text-bright: #EBDBB2;
+    --text-muted: #928374;
+  }
+
+  a:hover {
+    color: #458588;
+  }
+
+  img {
+    background-color: #FFF;
+    border-color: #FBF1C7;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #FBF1C7;
+    --code: #586E75;
+    --focus: #427B58;
+    --links: #427B58;
+    --selection: #EBDBB2;
+    --text-bright: #586E75;
+    --text-muted: #928374;
+  }
+
+  a:hover {
+    color: #458588;
+  }
+
+  img {
+    background-color: #3C3836;
+    border-color: #3C3836;
+  }
+}

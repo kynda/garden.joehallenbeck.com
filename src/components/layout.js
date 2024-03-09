@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 import "./stylesheet.css"
+import "./water.css"
+import "./colors.css"
 
 const Layout = ({ children }) => {
   return (
