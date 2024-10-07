@@ -10,13 +10,17 @@ header a:link {
 }
 
 article dt {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 img {
-    padding: 4px;
-    border: 1px solid;
-    border-radius: 4px;
-    display: block;
-    margin: auto;
+  padding: 4px;
+  border: 1px solid;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+}
+
+li > ol {
+  list-style: lower-alpha;
 }
