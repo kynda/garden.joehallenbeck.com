@@ -24,3 +24,7 @@ img {
 li > ol {
   list-style: lower-alpha;
 }
+
+hr {
+  margin: 0 12em 0 12em;
+}
