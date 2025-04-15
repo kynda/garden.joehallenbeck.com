@@ -8,7 +8,7 @@ const IndexPage = () => (
     <Layout>
         <SEO title="Home" />
     <p>You have reached the digital garden of Joe Hallenbeck
-        (<a rel="me" href="https://hackers.town/@lordbowlich">Lord Bowlich</a>),
+        (<a rel="me" href="https://masto.hackers.town/@lordbowlich">Lord Bowlich</a>),
         also known as a digital brain, a knowledgebase or a zettelkasten. I
         intend to provide a public working record of knowledge and ideas that I
         am working on irrespective of subject matter. In this manner it is a
